@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+font-family: 'Poor Story', cursive;
+}
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;   
+
+
+
+    background: linear-gradient(290deg, #0a55d2, #971bdd, #e89667, #98e11e);
+    background-size: 800% 800%;
+
+    -webkit-animation: ManuMishra 11s ease infinite;
+    -moz-animation: ManuMishra 11s ease infinite;
+    animation: ManuMishra 11s ease infinite;
+}
+
+@-webkit-keyframes ManuMishra {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@-moz-keyframes ManuMishra {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+@keyframes ManuMishra {
+    0%{background-position:0% 91%}
+    50%{background-position:100% 10%}
+    100%{background-position:0% 91%}
+}
+
+#wrapper{
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    
+    padding: 1rem;
+    text-align: center;
+}
+#input{
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+
+
+}
+#button{
+    border-radius: 5px;
+    font-size: 16px;
+    border:none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#qr code{
+    margin-top: 1rem;
+   
+
+}
